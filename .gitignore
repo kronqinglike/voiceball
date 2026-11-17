@@ -1,0 +1,13 @@
+# 构建产物
+out/
+*.apk
+*.apk.idsig
+
+# 本地密钥（别提交！）
+assets/voicebox_key
+debug.keystore
+*.keystore
+*.jks
+
+# 依赖 jar（自己下）
+lib/*.jar
